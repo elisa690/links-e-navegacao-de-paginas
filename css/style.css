@@ -1,88 +1,365 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
+header {
+    background-color: #4a0e24;
+    padding: 15px;
 }
 
-body{
-    margin: 0;
-    font-family:Arial, Helvetica, sans-serif ;
-    background-color: #fff5fa;
-    color: #5e2a52
-}
-.topo {
+#menu-navegacao {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 25px 60px;
-    background-color: #f3b6d2;
 }
 
-.logo h1 {
-    color :white;
-    font-size: 30px;
+#logo {
+    color: #ffb6d5;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.logo p {
-    color: #8c245d;
-    margin-bottom: 5px;
+#links {
+    display: flex;
+    gap: 10px;
 }
 
-.menu {
+#links a {
+    background-color: #d94f8a;
+    color: #fff0f6;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#links a:first-child {
+    background-color: #ffb6d5;
+    color: #4a0e24;
+}
+
+#destaque a {
+    background-color: #d94f8a;
+    color: #fff0f6;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#destaque img {
+    width: 55%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#inicio {
+    background-color: #e879a8;
+    padding: 40px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#inicio article {
+    width: 50%;
+}
+
+#pequeno {
+    color: #ffd1e3;
+    margin: 10px 0;
+}
+
+#inicio p {
+    color: #fff0f6;
+    margin: 10px 0;
+}
+
+#inicio h2 {
+    color: #fff0f6;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+#inicio h2 em {
+    color: #ffd1e3;
+}
+
+#inicio img {
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#inicio article a {
+    background-color: #ffb6d5;
+    color: #4a0e24;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#inicio a {
+    background-color: #d94f8a;
+    color: #fff0f6;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#especial {
+    background-color: #fff0f6;
+    padding: 60px;
+    margin: 0;
+}
+
+#especial h2 {
+    color: #4a0e24;
+}
+
+#especial p {
+    color: #4a0e24;
+}
+
+#cartoes {
+    display: flex;
     gap: 25px;
 }
 
-.menu a {
-    color: #ffffff;
+#cartoes article {
+    background-color: #ffd6e7;
+    padding: 45px;
+    width: 33%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#cartoes h3 {
+    color: #4a0e24;
+}
+
+#destaque {
+    background-color: #e879a8;
+    padding: 35px;
+    text-align: center;
+    margin: 0;
+}
+
+#destaque p {
+    color: #ffd1e3;
+}
+
+#destaque h2 {
+    color: #fff0f6;
+}
+
+#destaque a {
+    background-color: #ffb6d5;
+    color: #4a0e24;
+    padding: 10px;
     text-decoration: none;
-    font-weight: bold;
-    padding: 10px 14px;
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
-.menu a:houver {
-    background-color: #e866a3;
-     border-radius: 5px;
+header p a {
+    background-color: #ffb6d5;
+    color: #4a0e24;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-.apresentacao {
+footer {
+    background-color: #4a0e24;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
+
+footer p {
+    color: #fff0f6;
+}
+
+footer a {
+    background-color: #ffb6d5;
+    color: #4a0e24;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#botoes {
+    display: flex;
+    gap: 8px;
+}
+
+#cabecalho-personagens {
+    background-color: #e879a8;
+    padding: 35px;
+}
+
+#cabecalho-personagens p {
+    color: #fff0f6;
+}
+
+#cabecalho-personagens h1 {
+    color: #fff0f6;
+    font-size: 40px;
+}
+
+em {
+    color: #ffd1e3;
+}
+
+#lista-personagens {
+    background-color: #fff0f6;
+    padding: 40px;
+}
+
+#lista-personagens > p {
+    color: #d94f8a;
+}
+
+#lista-personagens h2 {
+    color: #4a0e24;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background-color: #ffd6e7;
+    width: 31%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card p {
+    color: #d94f8a;
+    font-size: 12px;
+}
+
+.card h4 {
+    color: #4a0e24;
+    margin: 5px;
+}
+
+.card small {
+    color: #555555;
+}
+
+#cabecalho-curiosidades {
+    background-color: #e879a8;
+    padding: 60px;
+    text-align: left;
+    color: #fff0f6;
+}
+
+#cabecalho-curiosidades h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+#cabecalho-curiosidades p {
+    margin: 10px 0;
+}
+
+#cabecalho-curiosidades h1 em {
+    color: #ffd1e3;
+}
+
+#curiosidade-principal {
     display: flex;
     align-items: center;
-    gap: 40px;
-    padding: 50px;
-    background-color: #fff5fa;
-}
-.texto-apresentacao {
-    flex: 1;
-}
-
-.texto-apresentacao h2 {
-    font-size: 38px;
-    margin-bottom: 20px;
+    justify-content: center;
+    gap: 35px;
+    padding: 30px;
+    background-color: #ffd6e7;
+    width: 90%;
+    margin: 20px auto 0;
 }
 
-.texto-apresentacao p {
+#curiosidade-principal img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#conteudo-curiosidades {
+    width: 50%;
+}
+
+#conteudo-curiosidades h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+#conteudo-curiosidades article {
+    display: flex;
+    gap: 20px;
+    background-color: #fff0f6;
+    padding: 20px;
+    margin: 12px 0;
+    align-items: flex-start;
+    border-radius: 8px;
+}
+
+#conteudo-curiosidades article h2 {
+    font-size: 20px;
+    color: #4a0e24;
+}
+
+#conteudo-curiosidades article h3 {
+    color: #d94f8a;
+    font-size: 28px;
+    margin: 0;
+}
+
+#conteudo-curiosidades article p {
+    margin: 0;
     font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
 }
 
-.frase {
-    color: #eb68ca;
-    font-weight: bold;
-    font-size: 23px ;
-}
-
-.imagem-apresentacao {
+#conteudo-curiosidades article section {
     flex: 1;
+    padding: 15px;
 }
 
-.imagem-apresentacao {
-    width: 100%;
-    height: 350px;
+body {
+    background-color: #fff0f6;
+    margin: 0;
+    height: 1000px;
 }
