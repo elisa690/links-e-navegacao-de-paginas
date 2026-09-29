@@ -88,7 +88,6 @@ header {
     text-decoration: none;
     border-radius: 5px;
     margin: 10px 5px;
-    display: inline-block;
 }
 
 #inicio img {
@@ -174,7 +173,6 @@ footer a {
     text-decoration: none;
     border-radius: 5px;
 }
-
 #rodape {
     display: flex;
     justify-content: space-between;
@@ -184,4 +182,103 @@ footer a {
 #botoes {
     display: flex;
     gap: 8px;
+}
+
+
+#cabecalho-curiosidades {
+   background-color: #f8c8d8;
+   padding: 60px;
+   text-align: left;
+   color: #5c2639;
+
+}
+
+#cabecalho-curiosidades h1 {
+    font-size: 40px;
+    margin: 10px;
+    color: #5c2639;
+}
+
+#cabecalho-curiosidades p {
+    margin: 10px;
+}
+
+#cabecalho-curiosidades em {
+    color: #c2185c;
+
+}
+
+#curiosidade-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 30px;
+    background-color: #fce4ec;
+    width: 90%;
+    margin: 55px;
+    border-radius: 15px;
+}
+
+#curiosidade-principal img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#conteudo-curiosidades {
+    width: 50%;
+}
+
+#conteudo-curiosidades h2 {
+    font-size: 30px;
+    margin: 10px;
+    color: #5c2639;
+}
+
+#conteudo-curiosidades article {
+   display: flex;
+   gap: 20px;
+   background-color: #fffafd;
+   padding: 20px;
+   margin: 12px;
+   align-items: flex-start;
+   border-radius: 8px;
+}
+
+#conteudo-curiosidades article h2 {
+    font-size: 20px;
+    color: #c2185b;
+    margin: 0;
+}
+
+#conteudo-curiosidades  article h3 {
+    color: #e91e63;
+    font-size: 28px;
+    margin: 0;
+}
+
+#conteudo-curiosidades article p {
+    margin: 0;
+    color: #5c2639;
+}
+
+#conteudo-curiosidades {
+    flex: 1;
+    padding: 15px;
+}
+
+#rodape-curiosidade {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: #fff5fa;
+    margin: 0;
+    height: 1000px;
+    padding: 0;
 }
